@@ -7,6 +7,9 @@
     "jsx": true,
     "modules": true
   },
+  "plugins": [
+    "react"
+  ],
   "rules": {
     "arrow-spacing": 2,
     "no-const-assign": 2,
