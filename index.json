@@ -13,6 +13,7 @@
   "rules": {
     "arrow-spacing": 2,
     "no-const-assign": 2,
+    "no-extra-parens": 0,
     "object-shorthand": 2,
     "prefer-const": 2,
     "prefer-spread": 2,
