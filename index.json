@@ -15,7 +15,6 @@
     "no-const-assign": 2,
     "no-extra-parens": 0,
     "object-shorthand": 2,
-    "prefer-const": 2,
     "prefer-spread": 2,
     "react/jsx-boolean-value": [ 2, "never" ],
     "react/jsx-curly-spacing": [ 2, "never", { "allowMultiline": false } ],
