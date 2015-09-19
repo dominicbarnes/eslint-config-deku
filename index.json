@@ -11,13 +11,12 @@
     "react"
   ],
   "rules": {
-    "arrow-spacing": 2,
     "no-const-assign": 2,
     "no-extra-parens": 0,
-    "object-shorthand": 2,
-    "prefer-spread": 2,
     "react/jsx-boolean-value": [ 2, "never" ],
+    "react/jsx-closing-bracket-location": [ 2, "after-props" ],
     "react/jsx-curly-spacing": [ 2, "never", { "allowMultiline": false } ],
+    "react/jsx-indent-props": [ 2, 2 ],
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-quotes": [ 2, "double", "avoid-escape" ],
