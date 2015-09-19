@@ -1,4 +1,9 @@
 
+0.1.0 / 2015-09-18
+==================
+
+  * moving some generic es6 rules to core config, adding rules from newer version of react plugin
+
 0.0.4 / 2015-08-10
 ==================
 
