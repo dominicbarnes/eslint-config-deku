@@ -1,4 +1,10 @@
 
+0.2.0 / 2015-11-13
+==================
+
+  * removing browser as base
+  * adding rules for preferring es6 as warnings
+
 0.1.1 / 2015-09-29
 ==================
 
