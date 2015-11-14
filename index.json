@@ -1,5 +1,4 @@
 {
-  "extends": "@dominicbarnes/browser",
   "env": {
     "es6": true
   },

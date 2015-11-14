@@ -4,7 +4,6 @@
   "version": "0.1.1",
   "main": "index.json",
   "peerDependencies": {
-    "@dominicbarnes/eslint-config-browser": "*",
     "eslint-plugin-react": "*"
   }
 }
