@@ -4,6 +4,14 @@
   "version": "0.3.0",
   "main": "index.json",
   "peerDependencies": {
-    "eslint-plugin-react": "*"
+    "eslint": "^2.0.0",
+    "eslint-plugin-react": "^3.16.1"
+  },
+  "devDependencies": {
+    "jsonlint": "^1.6.2"
+  },
+  "scripts": {
+    "lint": "jsonlint -q index.json",
+    "test": "npm run lint"
   }
 }

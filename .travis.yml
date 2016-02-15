@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js: stable
+install: npm update
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: npm
+  email: dominic@dbarnes.info
+  api_key:
+    secure: lPqq46tBnztA5uC8oS+Mj/KqiQaUAkslxGzr8p1MpUVeN7jgilVOIh72aMU/Vt1dyWx+7G5LXIfnCJ9Z9T8xXY4dQe5LNOAq5zA3E64qKewi7kIdo9VhzAi0QayCN6VSxh6b8xkray4dTZB2Jf+WbDhWn7AhCWz305+IJAK8QPQM6nAcRZEvkS17mjBmLmKMDPOuVJ6RGOc9wKsdXOMi43R2BEVXrCfXt5flal9Md03NzRWrQ0mrU6sI9XwP4YFZVOXeM9fPWRyilwHLh5BL0kGWi5XBfY8IFn7igM1IEF4ci4joRu9Kc5mou43GrdMP7DeWQ4bi7TDCGepuw1Ao+dqwfWCy6hDkTIeG+xWDuS92omIw2y0rTmHsQ2fAlnVS91QyBVj7XmDgsaxkDZ/hO41R1NMa+Lnal6zwqw2t/sJJYXFyoWt7IJCSZpn6zKmvMtrlgFsOC28a6//QSiD96arJplDLhe6Y4aCnySqwE72aew/j6DYChDfN2y1CFDHySd0SMnloaEkIPpu8cE+fX1F3KS4/1He+lmcCAzGa7o+EbaUmZf3XmIX0O2+MU48hD4MzI3oeti3bSt8fLkO5WaX1BIWIrULRpCEw70sB2wjlbXUK4eXHqdIf5mC7jKoeHr4EvHc1zYEYp6AtS2inZLGUSYmfKmQ4z3jpumsTB2w=
+  on:
+    tags: true
+    repo: dominicbarnes/eslint-config-deku
