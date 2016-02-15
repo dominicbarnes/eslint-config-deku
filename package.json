@@ -1,7 +1,7 @@
 {
   "name": "@dominicbarnes/eslint-config-deku",
   "description": "ESLint configuration for use in deku projects",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "main": "index.json",
   "peerDependencies": {
     "eslint": "^2.0.0",
